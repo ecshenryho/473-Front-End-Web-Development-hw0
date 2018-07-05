@@ -18,6 +18,10 @@ a[href="#"]{
   text-decoration: none;
 }
 
+.detail-image{
+  width: 90%;
+}
+
 .logo-text{
   background: white;
   font-family: lakeshore;
@@ -30,7 +34,8 @@ a[href="#"]{
 .thumbnail-item{
   border: 1px solid rgb(100%,100%,100%);
   border: 1px solid rgba(100% ,100%, 100%, 0.8);
-  display: block;
+  display: inline-block;
+  width: 120px;
 }
 
 .thumbnail-item + .thumbnail-item{
@@ -39,7 +44,9 @@ a[href="#"]{
 
 .thumbnail-list{
   list-style: none;
+  overflow-x: auto;
   padding:0;
+  white-space: nowrap;
 }
 
 .thumbnail-image{
