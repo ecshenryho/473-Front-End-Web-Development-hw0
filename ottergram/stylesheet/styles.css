@@ -10,7 +10,7 @@
        url('fonts/LAKESHOR-webfont.svg#lakeshore') format('svg');
 }
 body{
-  background: rgb(149,194,215);
+  background: rgb(45,117,67);
   font-size: 10px;
 }
 
@@ -48,8 +48,8 @@ a[href="#"]{
 }
 
 .thumbnail-title{
-  background: rgba(96,125,139);
-  color: rgb(202,238,255);
+  background: rgb(255,255,255);
+  color: rgb(45,117,67);
   display: block;
   font-size: 18px;
   margin:0;
