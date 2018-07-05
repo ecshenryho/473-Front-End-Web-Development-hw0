@@ -2,64 +2,72 @@
   font-family: 'lakeshore';
   font-style: normal;
   font-weight: normal;
-
   src: url('fonts/LAKESHOR-webfont.eot');
-  src: url('fonts/LAKESHOR-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/LAKESHOR-webfont.woff') format('woff'),
-       url('fonts/LAKESHOR-webfont.ttf') format('truetype'),
-       url('fonts/LAKESHOR-webfont.svg#lakeshore') format('svg');
+  src: url('fonts/LAKESHOR-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/LAKESHOR-webfont.woff') format('woff'), url('fonts/LAKESHOR-webfont.ttf') format('truetype'), url('fonts/LAKESHOR-webfont.svg#lakeshore') format('svg');
 }
-body{
-  background: rgb(45,117,67);
+
+body {
+  background: rgb(45, 117, 67);
+  display: flex;
+  flex-direction: column;
   font-size: 10px;
 }
 
-a[href="#"]{
+a[href="#"] {
   text-decoration: none;
 }
 
-.detail-image{
+.detail-image {
   width: 90%;
 }
 
-.logo-text{
+html, body {
+  height: 100%;
+}
+
+.logo-text {
   background: white;
   font-family: lakeshore;
   font-size: 37px;
   text-align: center;
   text-transform: uppercase;
-
 }
 
-.thumbnail-item{
-  border: 1px solid rgb(100%,100%,100%);
-  border: 1px solid rgba(100% ,100%, 100%, 0.8);
+.main-content{
+  flex: 1 1 auto;
+}
+
+.main-header{
+  flex: 0 1 auto;
+}
+.thumbnail-item {
+  border: 1px solid rgb(100%, 100%, 100%);
+  border: 1px solid rgba(100%, 100%, 100%, 0.8);
   display: inline-block;
   width: 120px;
 }
 
-.thumbnail-item + .thumbnail-item{
+.thumbnail-item+.thumbnail-item {
   margin-top: 10px;
 }
 
-.thumbnail-list{
+.thumbnail-list {
   list-style: none;
   overflow-x: auto;
-  padding:0;
+  padding: 0;
   white-space: nowrap;
 }
 
-.thumbnail-image{
+.thumbnail-image {
   display: block;
   width: 100%;
 }
 
-.thumbnail-title{
-  background: rgb(255,255,255);
-  color: rgb(45,117,67);
+.thumbnail-title {
+  background: rgb(255, 255, 255);
+  color: rgb(45, 117, 67);
   display: block;
   font-size: 18px;
-  margin:0;
+  margin: 0;
   padding: 4px 10px;
-
 }
