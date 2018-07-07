@@ -99,7 +99,10 @@ html, body {
 
 .thumbnail-image {
   display: block;
+  height: 100px;
   width: 100%;
+
+
 }
 
 .thumbnail-title {
