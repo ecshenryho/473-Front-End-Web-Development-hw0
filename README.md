@@ -1,5 +1,5 @@
-                                    # 473-Front-End-Web-Development-hw0+hw1
-                                    Homework 0 + Homework 1
+                                # 473-Front-End-Web-Development-hw0+hw1
+                                Homework 0 + Homework 1
 
 -The Ottergram page can be viewed at http://localhost:3000  when browser-sync is running
 
